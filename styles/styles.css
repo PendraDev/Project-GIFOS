@@ -1,6 +1,9 @@
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: bold;
-  font-size: 50px;
+  font-size: 1rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -2,3 +2,11 @@ $font_primary: 'Montserrat', sans-serif;
 $font_secondary: 'Roboto', sans-serif;
 $font_size: 16px;
 
+h1 {
+    font-family: $font_primary;    
+    font-size: 1rem;
+}
+
+p {
+    font-family: $font_secondary;
+}

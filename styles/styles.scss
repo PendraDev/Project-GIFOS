@@ -3,6 +3,7 @@
 @import "./lib/variables";
 
 // Elementos base //
+@import './base/nav';
 @import "./base/buttons";   
 @import './base/typography';
 
@@ -14,9 +15,4 @@
 
 body {
     
-}
-h1 {
-    font-family: $font_primary;
-    font-size: bold;
-    font-size: 50px;
 }
