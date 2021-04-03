@@ -1,0 +1,22 @@
+// Librerias, Settings y variables //
+
+@import "./lib/variables";
+
+// Elementos base //
+@import "./base/buttons";   
+@import './base/typography';
+
+
+// Components //
+@import "./components/grids";
+@import "./components/utilities";
+
+
+body {
+    
+}
+h1 {
+    font-family: $font_primary;
+    font-size: bold;
+    font-size: 50px;
+}
