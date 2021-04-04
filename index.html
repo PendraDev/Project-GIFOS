@@ -11,12 +11,22 @@
 </head>
 <body>
     <header>
-        <nav>
+        <div class="menu-btn">
+            <span class="menu-btn__burger"></span>
+        </div>
+
+        <nav class="nav">
             <img src="./assets/logo-mobile.svg" alt="Logo mobile">
-                <ul>
-                    <li>MODO NOCTURNO</li>
-                    <li>FAVORITOS</li>
-                    <li>MIS GIFOS</li>
+                <ul class="menu-nav">
+                    <li class="menu-nav__item active">
+                        <a href="" class="menu-nav__link">MODO NOCTURNO</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="" class="menu-nav__link">FAVORITOS</a>
+                    </li>
+                    <li class="menu-nav__item">
+                        <a href="" class="menu-nav__link">MIS GIFOS</a>                        
+                    </li>
                 </ul>
             </nav>
     </header>
@@ -45,6 +55,6 @@
         </div>
         <p>© GIFOS 2021 All Rights Reserved.</p>
     </footer>
-    <script src=""></script>
+    <script src="./index.js"></script>
 </body>
 </html>

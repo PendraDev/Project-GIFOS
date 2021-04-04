@@ -1,18 +1,16 @@
 // Librerias, Settings y variables //
 
-@import "./lib/variables";
+@import './lib/variables';
 
 // Elementos base //
-@import './base/nav';
-@import "./base/buttons";   
+@import './base/menu';
+@import './base/buttons';   
 @import './base/typography';
+@import '.base/config';
 
 
 // Components //
-@import "./components/grids";
-@import "./components/utilities";
+@import './components/grids';
+@import './components/utilities';
 
 
-body {
-    
-}
